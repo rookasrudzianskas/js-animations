@@ -46,7 +46,8 @@ section {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 3rem;
-    margin: 10rem 50rem;
+    margin: 100px;
+    /*background: red;*/
 }
 
 .card {
