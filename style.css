@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+nav {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    font-size: 1.2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #252525;
+    font-weight: bold;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.active-nav {
+    height: 3px;
+    background: #385ae0;
+    border-radius: 1rem;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+}
